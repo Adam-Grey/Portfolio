@@ -1,0 +1,71 @@
+.header-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.social-button {
+    background-color: #CB9D06;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-left: 20px; 
+}
+
+.social-button:hover {
+    background-color: #a47905;
+}
+
+#my-pic {
+    height: 200px;
+    display: inline;
+    float: left;
+    margin-right: 5px;
+    border: solid #CB9D06 5px;
+    border-radius: 10px;
+}
+
+h2 {
+    display: block;
+}
+
+#details {
+    display: block;
+}
+
+p {
+    text-align: justify;
+    font-size: 26px;
+}
+
+body {
+    background-color: navajowhite;
+}
+
+#loading {
+    width: 50px;
+}
+
+#flag {
+    width: 20px;
+}
+
+#column-1, #column-2 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#column-2 {
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+#column-1 li, #column-2 li {
+    margin-bottom: 10px;
+}
+
+#column-2 li:nth-child(3), #column-2 li:nth-child(4) {
+    margin-top: -4px;
+}
+
